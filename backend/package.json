@@ -1,0 +1,21 @@
+{
+  "name": "fake-news-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@dotenvx/dotenvx": "^1.52.0",
+    "@google/genai": "^1.42.0",
+    "@google/generative-ai": "^0.24.1",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^4.22.1",
+    "mongoose": "^7.8.9",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.13",
+    "openai": "^6.25.0"
+  }
+}
